@@ -1,0 +1,82 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It made clear where the file changed narrowing the search for the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I could experiment without the fear of changing things and I would be able
+    to always return to an exact point in time in a history of a file to check
+    what I've done and bring back that to my present changes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    A pro is that the commits reflect a logical change is done correctly, also
+    it gives the programmer more control over when to commit. A con could be
+    that this system depends on the judgment of the programmer making it a little
+    harder for beginners.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because the unit in some version control systems are logical changes,
+    that could take several files, and others treat them separately because the
+    unit is the file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log will give us clues about what append and diff to check the diff
+    between files.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because I can always go back to a running version and compare it with the one
+    with a bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Create my own git repository
+
+
+Notes:
+
+Compare files automatically:
+- Windows: FC (File compare)
+- Mac, Linux: Diff
+
+$ diff -u game-old.html game-new.html  (unified diff format)
+
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+Versions -> Save the history of a file
+- Saving manual copies
+- Dropbox
+- Google Drive
+- Wikipedia -> history
+
+One commit per logical change -> One purpose that can be easily understood
+
+What is a README?
+- Many projects contain a file named "README" that gives a general description
+of what the project does and how to use it. It's often a good idea to read this
+file before doing anything with the project, so the file is given this name to
+make users more likely to read it.
+
+Repository: A collection of files to track
+Commit: A snapshot of every file in your repository at the time you chose to
+make the commit.
+
+$ git diff hash hash
+$ git log --stat
+$ git clone URL_OF_THE_REPOSITORY # Creates a clone of the repository
+$ git config --global color.ui auto # Colorize the output
+$ git checkout # Reset all files to the time the commit was made, NOT like SVN
+$ git diff -u hash_old hash_new
+$ git init # Initializes a git repository
+
+Bunch of meta-data in the hidden directory .git
