@@ -16,8 +16,9 @@ change?
 
   Adding only the files that are part of the logical change.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you want to experiment with a new feature but you always want to keep a version of the system ready to run.
 
 How do the diagrams help you visualize the branch structure?
 
