@@ -32,6 +32,9 @@ the diagram the way we do?
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
+	Automatic merging only is not desirable cuz it could make the code a mess and 
+	always doing manual merges are tediuous and error prone.
+
 $ git diff # Diff between the staged area and the working directory
 $ git diff --staged  # Difference between the staged area and the repo
 $ git reset --hard # Discard changes in de working directory and the staged area
