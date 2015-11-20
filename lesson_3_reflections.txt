@@ -9,3 +9,10 @@ Why might you want to always pull changes manually rather than having Git automa
 	the full repository besides I could be in the middle of coding and an
 	automatic update could be disruptive.
 	
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	A branche is a series of logical related commits withing a repository where 
+	every commit has a parent commit (except the first one). A clone is a full 
+	copy of a repository and a fork is an special kind of clone where you give
+	credit to the original author of the repository.
+
