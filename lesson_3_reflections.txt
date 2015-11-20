@@ -3,3 +3,9 @@ When would you want to create a remote repository rather than keeping all your w
 	When I want to share my code with someone else via a centralize repo plus
 	I get a backup of it.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Because I could pick up the branch I'm interested in without downloading
+	the full repository besides I could be in the middle of coding and an
+	automatic update could be disruptive.
+	
