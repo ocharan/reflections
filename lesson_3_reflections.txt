@@ -21,3 +21,9 @@ What is the benefit of having a copy of the last known state of the remote store
 	It makes possible to know if there has been a change in the remote repo 
 	marking in time where the divergence ocurred and letting the marge possible
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Without Git I would use email to send my changes and request for merge.
+	Without Github I would send the pull request directly to my collaborator's
+	computer but that would require to be in the same network.
+	
