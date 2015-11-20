@@ -1,1 +1,5 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+	When I want to share my code with someone else via a centralize repo plus
+	I get a backup of it.
+
