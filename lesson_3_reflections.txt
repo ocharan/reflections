@@ -16,3 +16,8 @@ Describe the differences between forks, clones, and branches. When would you use
 	copy of a repository and a fork is an special kind of clone where you give
 	credit to the original author of the repository.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	It makes possible to know if there has been a change in the remote repo 
+	marking in time where the divergence ocurred and letting the marge possible
+
